@@ -8,8 +8,6 @@ Base = declarative_base()
 
 
 class User(Base):
-   """
-   SQLAlchemy model named"""
 
     __tablename__ = "users"
 
